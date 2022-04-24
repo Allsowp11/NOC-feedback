@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f7eee5
+}
+:hover#arrow{
+
+    animation-name: radius;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  
+  }
+  @keyframes radius {
+    0% {transform : rotate(-90deg);}
+    100% {transform : rotate(270deg);}
+  }
